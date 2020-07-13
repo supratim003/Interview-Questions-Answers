@@ -54,7 +54,11 @@ export default function SectionPills() {
                     tabIcon: Schedule,
                     tabContent: (
                       <span>
-                        
+                        <p className={classes.textbox}>
+                              Collaboratively administrate empowered markets via
+                              plug-and-play networks. Dynamically procrastinate B2C
+                              users after installed base benefits.
+                            </p>
                       </span>
                     )
                   },
