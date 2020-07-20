@@ -36,7 +36,7 @@ export default function SectionPills() {
                     tabIcon: Dashboard,
                     tabContent: (
                       <span>
-                        <ul>
+                        <ol>
                           <li>
                             <h4 className={classes.heading}>Tell me about youeself?</h4>
                             <p className={classes.textbox}>
@@ -45,7 +45,7 @@ export default function SectionPills() {
                               users after installed base benefits.
                             </p>
                           </li>
-                        </ul>
+                        </ol>
                       </span>
                     )
                   },

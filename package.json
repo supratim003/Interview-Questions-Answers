@@ -1,7 +1,7 @@
 {
-  "name": "Supratim Das",
+  "name": "material-kit-react",
   "version": "1.9.0",
-  "description": "All Interview Questions & Answers",
+  "description": "Material Kit React. Coded by Creative Tim",
   "private": true,
   "main": "src/index.js",
   "dependencies": {
