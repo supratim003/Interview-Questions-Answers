@@ -1,0 +1,16 @@
+.accordion__button:before {
+    display: none !important;
+}
+.accordion {
+    border: none !important;
+    padding-top: 20px;
+}
+.accordion__button {
+    background-color: #fff !important;
+    color: #636363 !important;
+    font-weight:600 !important;
+    padding: 15px !important;
+}
+.accordion__panel {
+    padding: 0px 20px 20px 20px !important;
+}

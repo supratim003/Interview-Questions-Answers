@@ -29,7 +29,7 @@ export default function Footer(props) {
     <footer className={footerClasses}>
       <div className={classes.container}>
         <div className={classes.right}>
-          &copy; {1900 + new Date().getYear()} , made with{" "}
+          {/* &copy; {1900 + new Date().getYear()} , made with{" "}
           <Favorite className={classes.icon} /> by{" "}
           <a
             href="supratim003.github.io"
@@ -38,7 +38,8 @@ export default function Footer(props) {
           >
             Supratim Das
           </a>{" "}
-          for a better web.
+          for a better web. */}
+          <p className={classes.copywrite}>No Copywrite is there do whatever you want to do. Updated</p>
         </div>
       </div>
     </footer>

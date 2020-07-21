@@ -12,6 +12,10 @@ import List from "@material-ui/icons/List";
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
 import NavPills from "components/CardSection/CardSection.js";
+import General from "components/Accordion/General.js";
+import Company from "components/Accordion/Company.js";
+import Html from "components/Accordion/Html.js";
+import Css from "components/Accordion/Css.js";
 
 import styles from "assets/jss/material-kit-react/views/pillsStyle.js";
 
@@ -24,7 +28,7 @@ export default function SectionPills() {
       <div className={classes.container}>
         <div id="navigation-pills">
           <div className={classes.title}>
-            <h3>Navigation Pills</h3>
+            <h3>Questions & Answers</h3>
           </div>
           <GridContainer>
             <GridItem xs={12} sm={12} md={12} lg={12}>
@@ -36,16 +40,7 @@ export default function SectionPills() {
                     tabIcon: Dashboard,
                     tabContent: (
                       <span>
-                        <ol>
-                          <li>
-                            <h4 className={classes.heading}>Tell me about youeself?</h4>
-                            <p className={classes.textbox}>
-                              Collaboratively administrate empowered markets via
-                              plug-and-play networks. Dynamically procrastinate B2C
-                              users after installed base benefits.
-                            </p>
-                          </li>
-                        </ol>
+                        <General />
                       </span>
                     )
                   },
@@ -54,11 +49,7 @@ export default function SectionPills() {
                     tabIcon: Schedule,
                     tabContent: (
                       <span>
-                        <p className={classes.textbox}>
-                              Collaboratively administrate empowered markets via
-                              plug-and-play networks. Dynamically procrastinate B2C
-                              users after installed base benefits.
-                            </p>
+                        <Company />
                       </span>
                     )
                   },
@@ -67,7 +58,7 @@ export default function SectionPills() {
                     tabIcon: CodeIcon,
                     tabContent: (
                       <span>
-
+                        <Html />
                       </span>
                     )
                   },
@@ -76,7 +67,7 @@ export default function SectionPills() {
                     tabIcon: CodeIcon,
                     tabContent: (
                       <span>
-
+                        <Css />
                       </span>
                     )
                   },

@@ -53,6 +53,9 @@ const footerStyle = {
     height: "18px",
     position: "relative",
     top: "3px"
+  },
+  copywrite: {
+    fontSize: "15px"
   }
 };
 export default footerStyle;

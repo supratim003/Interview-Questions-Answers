@@ -10,12 +10,6 @@ const pillsStyle = {
     marginTop: "30px",
     minHeight: "32px",
     textDecoration: "none"
-  },
-  heading: {
-    fontWeight: "500",
-  },
-  textbox: {
-    color: "#000"
   }
 };
 

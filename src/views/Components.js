@@ -22,14 +22,14 @@ export default function Components(props) {
   const { ...rest } = props;
   return (
     <div>
-      <Parallax image={require("assets/img/bg4.jpg")}>
+      <Parallax image={require("assets/img/bg.jpg")}>
         <div className={classes.container}>
           <GridContainer>
             <GridItem>
               <div className={classes.brand}>
-                <h1 className={classes.title}>Supratim Das.</h1>
+                <h1 className={classes.title}>Front End Interview Guidebook.</h1>
                 <h3 className={classes.subtitle}>
-                  All Interview Questiond and Answers.
+                  Almost complete all "Front-end Job Interview Questions" which you can use to interview potential candidates, test yourself or completely ignore.
                 </h3>
               </div>
             </GridItem>
@@ -38,7 +38,7 @@ export default function Components(props) {
       </Parallax>
 
       <div className={classNames(classes.main, classes.mainRaised)}>
-        <SectionPills />                                                             
+        <SectionPills />                                                            
       </div>
       <Footer />
     </div>
