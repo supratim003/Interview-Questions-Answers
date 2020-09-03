@@ -28,7 +28,7 @@ export default function SectionPills() {
       <div className={classes.container}>
         <div id="navigation-pills">
           <div className={classes.title}>
-            <h3>Questions & Answers</h3>
+            <h3 className={classes.cardtitle}>Questions & Answers</h3>
           </div>
           <GridContainer>
             <GridItem xs={12} sm={12} md={12} lg={12}>
@@ -45,20 +45,11 @@ export default function SectionPills() {
                     )
                   },
                   {
-                    tabButton: "Company",
-                    tabIcon: Schedule,
-                    tabContent: (
-                      <span>
-                        <Company />
-                      </span>
-                    )
-                  },
-                  {
                     tabButton: "HTML",
                     tabIcon: CodeIcon,
                     tabContent: (
                       <span>
-                        <Html />
+                        
                       </span>
                     )
                   },
@@ -67,12 +58,48 @@ export default function SectionPills() {
                     tabIcon: CodeIcon,
                     tabContent: (
                       <span>
-                        <Css />
+                        
                       </span>
                     )
                   },
                   {
-                    tabButton: "Tasks",
+                    tabButton: "JAVASCRIPT",
+                    tabIcon: CodeIcon,
+                    tabContent: (
+                      <span>
+                        
+                      </span>
+                    )
+                  },
+                  {
+                    tabButton: "REACT JS",
+                    tabIcon: CodeIcon,
+                    tabContent: (
+                      <span>
+                        
+                      </span>
+                    )
+                  },
+                  {
+                    tabButton: "NODE JS",
+                    tabIcon: CodeIcon,
+                    tabContent: (
+                      <span>
+                        
+                      </span>
+                    )
+                  },
+                  {
+                    tabButton: "MONGO DB",
+                    tabIcon: CodeIcon,
+                    tabContent: (
+                      <span>
+                        
+                      </span>
+                    )
+                  },
+                  {
+                    tabButton: "assignment",
                     tabIcon: List,
                     tabContent: (
                       <span>
